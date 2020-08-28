@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+.header {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
 .container {
   margin: auto;
   display: flex;
@@ -51,6 +56,45 @@ input[type='text'] {
   cursor: pointer;
   margin-left: 10px;
   border-radius: 4px;
+}
+
+.meals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.meal {
+  cursor: pointer;
+  position: relative;
+  height: 180px;
+  width: 180px;
+}
+
+.meal img {
+  width: 100%;
+  height: 100%;
+  border: 4px #fff solid;
+  border-radius: 2px;
+}
+
+.meal-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease-in;
+  opacity: 0;
+}
+
+.meal:hover .meal-info {
+  opacity: 1;
 }
 
 @media (max-width: 800px) {
