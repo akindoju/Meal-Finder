@@ -1,21 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: teal;
-  color: white;
-  font-family: 'Satisfy', cursive;
+  background-color: rgb(76, 103, 253);
+  color: rgb(0, 0, 0);
+  font-family: 'Courgette', cursive;
   margin: 0;
 }
 
 .header {
   font-size: 50px;
   margin-bottom: 0;
+  font-family: 'Satisfy', cursive;
+  color: rgb(197, 21, 21);
 }
-
 .container {
   margin: auto;
   display: flex;
@@ -95,6 +97,7 @@ input[type='text'] {
 
 .meal:hover .meal-info {
   opacity: 1;
+  color: rgb(255, 255, 255);
 }
 
 .single-meal {
@@ -112,7 +115,8 @@ input[type='text'] {
 .single-meal-info {
   margin: 20px;
   padding: 10px;
-  border: 2px dashed rgb(3, 190, 190);
+  font-size: 25px;
+  /* border: 2px dashed rgb(0, 0, 0); */
 }
 
 .single-meal p {
