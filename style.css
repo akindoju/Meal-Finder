@@ -16,7 +16,8 @@ nav {
   border-bottom-left-radius: 10% 10%;
   border-bottom-right-radius: 10% 10%;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
-  background-image: url(../foodImage.jpg);
+  background-image: url(https://image.freepik.com/free-photo/various-mexican-food-dark-background_23-2147740705.jpg);
+  background-color: rgb(11, 4, 109);
   background-size: cover;
 }
 
@@ -169,6 +170,12 @@ button:active {
   .meals {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .single-meal img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media (max-width: 700px) {
   .meals {
@@ -178,6 +185,12 @@ button:active {
   .meal {
     height: 200px;
     width: 200px;
+  }
+
+  .single-meal img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (max-width: 500px) {
@@ -190,5 +203,11 @@ button:active {
   .meal {
     height: 300px;
     width: 300px;
+  }
+
+  .single-meal img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
