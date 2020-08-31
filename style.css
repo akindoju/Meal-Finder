@@ -170,12 +170,6 @@ button:active {
   .meals {
     grid-template-columns: repeat(3, 1fr);
   }
-
-  .single-meal img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 }
 @media (max-width: 700px) {
   .meals {
@@ -185,12 +179,6 @@ button:active {
   .meal {
     height: 200px;
     width: 200px;
-  }
-
-  .single-meal img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
 @media (max-width: 500px) {
@@ -203,11 +191,5 @@ button:active {
   .meal {
     height: 300px;
     width: 300px;
-  }
-
-  .single-meal img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
