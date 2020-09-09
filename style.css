@@ -131,7 +131,7 @@ button:active {
 .single-meal img {
   width: 300px;
   margin: 15px;
-  border: 2px rgb(0, 0, 0) solid;
+  border: 2px rgb(240, 0, 0) solid;
   border-radius: 5px;
   padding: 4px;
 }
