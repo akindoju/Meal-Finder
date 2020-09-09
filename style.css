@@ -170,6 +170,10 @@ button:active {
   .meals {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .single-meal img {
+    margin-right: 155px;
+  }
 }
 @media (max-width: 700px) {
   .meals {
