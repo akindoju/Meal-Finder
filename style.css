@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 * {
   box-sizing: border-box;
@@ -16,7 +16,7 @@ nav {
   border-bottom-left-radius: 10% 10%;
   border-bottom-right-radius: 10% 10%;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
-  background-image: url(https://image.freepik.com/free-photo/various-mexican-food-dark-background_23-2147740705.jpg);
+  background-image: url("https://images.unsplash.com/flagged/photo-1585395332720-70311195735d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
   background-color: rgb(11, 4, 109);
   background-size: cover;
 }
@@ -24,7 +24,7 @@ nav {
 .header {
   font-size: 50px;
   margin-bottom: 30px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 70px;
   color: rgb(255, 255, 255);
 }
@@ -32,7 +32,7 @@ nav {
 body {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   margin: 0;
 }
 
@@ -60,7 +60,7 @@ button {
   outline: none;
 }
 
-input[type='text'] {
+input[type="text"] {
   width: 350px;
 }
 
@@ -186,7 +186,7 @@ button:active {
   }
 }
 @media (max-width: 500px) {
-  input[type='text'] {
+  input[type="text"] {
     width: 100%;
   }
   .meals {

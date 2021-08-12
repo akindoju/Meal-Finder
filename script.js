@@ -25,8 +25,8 @@ function searchMeals(e) {
             .map(
               (meal) => `
             <div class = "meal">
-                <a target = "_blank">
-                  <img src ="${meal.strMealThumb}" alt = "${meal.strMeal}" target = "_blank"/>
+                <a href = "www.w3.org" target = "_blank">
+                  <img src ="${meal.strMealThumb}" alt = "${meal.strMeal}"/>
                 </a>
                 <div class = "meal-info" data-mealID = "${meal.idMeal}">
                     <h3>
